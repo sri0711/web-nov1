@@ -37,3 +37,11 @@ h6{
     text-align: center;
     opacity: 0.5;
 }
+.skull{
+    height: 20vh;
+    width: auto;
+    margin-top: 70vh;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}

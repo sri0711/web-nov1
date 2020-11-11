@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dev on nov</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <section class="main">
         <div>
             <h1>I'm Captain <br>Jacksparrow</h1>
-            <iframe class="audio" src="audio.mp3" allow="autoplay" hidden></iframe>
+            <audio class="audio" src="audio.mp3" hidden></audio>
+            <img src="skull.png" alt="loading" class="skull" >
         </div>
         <div><h6>created by Sri Sathish</h6></div>
     </section> 
+    <script>
+        const audio1 =document.querySelector('audio').play();
+    </script>
 </body>
 </html>
