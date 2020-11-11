@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("unnamed.jpg");
+    background-size: 100vw 100vh;
+    background-position: auto;
+    color: white;
+}
+.main{
+    background-color: rgba(255, 255, 255, 0.199);
+    height: 80vh;
+    width: 60vw;
+    top: 10vh;
+    left: 10vw;
+    position: absolute;
+}
+h1{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
