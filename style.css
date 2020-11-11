@@ -29,9 +29,8 @@ h1{
     position: absolute;
     transform: translate(-50%,-50%);
     font-family: pirate;
-    font-size: 10vh;
+    font-size: 10vw;
     flex-wrap: wrap;
-    padding: auto;
 }
 h6{
     margin-top: 85vh;
