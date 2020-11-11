@@ -12,6 +12,7 @@ body{
     background-size: 100vw 100vh;
     background-position: auto;
     color: white;
+    display: inline-flex;
 }
 .main{
     background-color: rgba(255, 255, 255, 0.199);
@@ -20,6 +21,7 @@ body{
     top: 10vh;
     left: 10vw;
     position: absolute;
+    border-radius: 20px 20px;
 }
 h1{
     top: 50%;
@@ -30,4 +32,9 @@ h1{
     font-size: 10vh;
     flex-wrap: wrap;
     padding: auto;
+}
+h6{
+    margin-top: 85vh;
+    text-align: center;
+    opacity: 0.5;
 }
