@@ -11,7 +11,7 @@ body{
     background-image: url("unnamed.jpg");
     background-size: 100vw 100vh;
     background-position: auto;
-    color: rgb(255, 25, 25);
+    color: rgb(2, 1, 1);
     display: inline-flex;
 }
 .main{

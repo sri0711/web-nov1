@@ -10,7 +10,7 @@
 <body>
     <section class="main">
         <div>
-            <h1>Sabari Paradhesi <br>kuttiyanai</h1>
+            <h1>Anu Paradhesi <br>kuttiyanai</h1>
             <audio class="audio" src="audio.mp3" hidden></audio>
             <img src="skull.png" alt="loading" class="skull" >
         </div>
@@ -18,7 +18,6 @@
     </section> 
     <script>
         const audio =document.querySelector('audio').play();
-        alert("please grant permission for audio play and please click skull");
         const img = document.getElementsByClassName("skull");
         img.addEventListener("click",function(){
             audio.play();
